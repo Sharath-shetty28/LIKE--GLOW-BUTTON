@@ -1,0 +1,90 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Gilroy';
+}
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+body {
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     background-color: rgba(195, 140, 38, 0.836);
+}
+
+.container {
+     height: 400px;
+     width: 350px;
+     background-color: white;
+     border-radius: 14px;
+     position: relative;
+     overflow: hidden;
+}
+
+img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     object-position: bottom;
+     cursor: pointer;
+     padding: 35px 0px;
+
+}
+
+.container>i {
+     color: whitesmoke;
+     font-size: 75px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) scale(0);
+     opacity: 0;
+     transition: transform ease-in-out 0.4s;
+
+}
+
+.nxt i {
+     font-size: 30px;
+     position: absolute;
+     bottom: -1px;
+     left: 25px;
+     padding: 1px;
+     cursor: pointer;
+}
+
+.nxt i:nth-child(2) {
+     margin-left: 45px;
+     font-size: 30px;
+     padding: 1.5px;
+     cursor: pointer;
+}
+
+.nxt i:nth-child(3) {
+
+     margin-left: 86px;
+     font-size: 33px;
+     cursor: pointer;
+     padding: 1px;
+}
+
+.nxt svg {
+
+     position: absolute;
+     top: 364px;
+     left: 264px;
+     height: 37px;
+     cursor: pointer;
+}
+
+#like:hover{
+color:red;
+}
+
+
+     
